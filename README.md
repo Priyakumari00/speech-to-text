@@ -33,7 +33,7 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 
 
 **Recording UI**  
-![Recording UI](./screenshots/recorder-ui.png)
+![Recording UI](Gallery)
 
 ---
 
