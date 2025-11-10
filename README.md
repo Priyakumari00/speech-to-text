@@ -49,7 +49,7 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 
 1️⃣ Clone the repository
 ```
-git clone <your-repo-url>
+git clone https://github.com/Priyakumari00/speech-to-text.git
 cd speech-to-text-mern
 ```
 2️⃣ Backend Setup
