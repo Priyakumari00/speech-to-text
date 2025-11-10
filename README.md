@@ -44,9 +44,7 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 - MongoDB (Atlas or local)
 - Python-based STT service running (or any WebSocket STT engine)
 - FFmpeg installed and in PATH  
-  ```bash
-  ffmpeg -version
----
+  
 💻 Setup
 
 1️⃣ Clone the repository
