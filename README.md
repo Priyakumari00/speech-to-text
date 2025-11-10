@@ -30,10 +30,9 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 
 ## 📷 Screenshots
 
+<img width="1265" height="591" alt="Screenshot 2025-11-10 192417" src="https://github.com/user-attachments/assets/d9021b10-8d08-4ee7-829b-8336c0223956" />
 
-
-**Recording UI**  
-![Recording UI](Gallery)
+<img width="1069" height="593" alt="Screenshot 2025-11-10 192439" src="https://github.com/user-attachments/assets/bd05dcec-5173-4e9f-a309-a9fbedec9aa2" />
 
 ---
 
