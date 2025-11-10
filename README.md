@@ -30,13 +30,11 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 
 ## 📷 Screenshots
 
-> Replace these with your own screenshots or GIFs
+
 
 **Recording UI**  
 ![Recording UI](./screenshots/recorder-ui.png)
 
-**Live Transcript**  
-![Transcript UI](./screenshots/transcript-ui.png)
 ---
 
 ## 📝 Prerequisites
