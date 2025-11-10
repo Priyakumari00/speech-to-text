@@ -54,3 +54,44 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 git clone <your-repo-url>
 cd speech-to-text-mern
 ```
+2️⃣ Backend Setup
+```
+cd backend
+npm install
+```
+Create a .env file in backend/:
+```
+PORT=4000
+MONGO_URI=<your-mongodb-uri>
+STT_WS_URL=ws://localhost:5000  # URL of your STT WebSocket service
+```
+Start the backend:
+```
+npm start
+```
+---
+3️⃣ Frontend Setup
+```
+cd ../frontend
+npm install
+```
+Create a .env file in frontend/:
+```
+VITE_BACKEND_URL=http://localhost:4000
+```
+Start the frontend:
+```
+npm run dev
+```
+---
+🧑‍💻 Author
+Priya Kumari
+MERN Stack Developer | AI/ML Enthusiast
+
+---
+
+
+
+
+
+
