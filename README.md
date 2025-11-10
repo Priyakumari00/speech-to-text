@@ -37,14 +37,6 @@ A **real-time speech-to-text web application** built using the **MERN stack** an
 
 **Live Transcript**  
 ![Transcript UI](./screenshots/transcript-ui.png)
-
----
-
-## ⚡ Live Demo
-
-> If deployed, add link here (Vercel / Render / Railway)  
-Example: [Live Demo](https://your-demo-link.com)
-
 ---
 
 ## 📝 Prerequisites
@@ -56,3 +48,11 @@ Example: [Live Demo](https://your-demo-link.com)
 - FFmpeg installed and in PATH  
   ```bash
   ffmpeg -version
+---
+💻 Setup
+
+1️⃣ Clone the repository
+```
+git clone <your-repo-url>
+cd speech-to-text-mern
+```
