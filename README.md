@@ -1,46 +1,58 @@
-# Real-time Speech-to-Text MERN Application
+# 🎙️ Real-time Speech-to-Text MERN App
 
-A real-time **speech-to-text web application** built with **MERN stack** and **WebSocket streaming**. The app allows users to speak into their microphone and receive live transcripts. FFmpeg converts the WebM audio chunks to PCM for the STT service.
+[![MERN](https://img.shields.io/badge/Stack-MERN-blue)](https://mern.io/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
 
----
-
-## Features
-
-- Real-time speech-to-text transcription.
-- Supports multi-lingual input (Hindi + English).
-- Partial and final transcripts.
-- MongoDB storage for final transcripts.
-- Responsive and clean frontend UI using React.
-- Node.js backend with WebSocket integration for real-time streaming.
-- FFmpeg for audio conversion from WebM → PCM (16kHz, mono).
+A **real-time speech-to-text web application** built using the **MERN stack** and **WebSocket streaming**. Speak into your microphone and get **instant live transcripts**! The backend uses **FFmpeg** to convert WebM audio chunks to PCM for STT processing.
 
 ---
 
-## Tech Stack
+## 🚀 Features
 
-- **Frontend:** React, Vite, Socket.io-client
-- **Backend:** Node.js, Express, Socket.io, Fluent-FFmpeg
-- **Database:** MongoDB (Atlas or local)
-- **Audio Processing:** FFmpeg
-- **STT Service:** WebSocket-based (Python or other STT engine)
+- 🎧 Real-time audio transcription.
+- 🔤 Supports multi-lingual input (Hindi + English).
+- 💬 Partial transcripts while speaking.
+- ✅ Final transcripts saved in MongoDB.
+- 🌐 Responsive frontend UI built with React.
+- ⚡ Low-latency streaming using Socket.io.
+- 🛠️ FFmpeg for audio conversion (WebM → PCM, 16kHz, mono).
 
 ---
 
-## Prerequisites
+## 🛠 Tech Stack
+
+| Frontend | Backend | Database | Audio Processing | Communication |
+|----------|--------|----------|-----------------|---------------|
+| React + Vite | Node.js + Express | MongoDB Atlas / Local | FFmpeg | Socket.io / WebSocket |
+
+---
+
+## 📷 Screenshots
+
+> Replace these with your own screenshots or GIFs
+
+**Recording UI**  
+![Recording UI](./screenshots/recorder-ui.png)
+
+**Live Transcript**  
+![Transcript UI](./screenshots/transcript-ui.png)
+
+---
+
+## ⚡ Live Demo
+
+> If deployed, add link here (Vercel / Render / Railway)  
+Example: [Live Demo](https://your-demo-link.com)
+
+---
+
+## 📝 Prerequisites
 
 - Node.js >= 18
 - NPM or Yarn
-- MongoDB URI
-- Python-based STT service running (or any WebSocket STT service)
-- FFmpeg installed and available in PATH  
-  *(Check with `ffmpeg -version` in terminal)*
-
----
-
-## Setup
-
-### 1. Clone the repository
-
-```bash
-git clone <your-repo-url>
-cd speech-to-text-mern
+- MongoDB (Atlas or local)
+- Python-based STT service running (or any WebSocket STT engine)
+- FFmpeg installed and in PATH  
+  ```bash
+  ffmpeg -version
